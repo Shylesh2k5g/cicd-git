@@ -1,0 +1,662 @@
+823068032.274696.1669697624857
+ da723c99-5834-4db9-bd90-fe0f5baffe72
+
+ aeslog-sy-1-2.serverpod.net -FileSystem mount option ( ro | rw ) 
+grep -P "\sro[\s,]" /proc/mounts | grep -v tmpfs
+  496  ls -l /tmp/
+  497  df -h
+  498  reboot
+  499  grep -P "\sro[\s,]" /proc/mounts | grep -v tmpfs
+
+
+Kiril Chernavasky Sir,
+kirk.cheney@insomniasec.com
+ShyluG@#$21   
+990727346.274698.1669697625019
+
+https://intermedia.atlassian.net/wiki/spaces/LSA/pages/356877159/HOW+TO+Build+a+new+Metric+Storage+Server+MST+node#4.-Build-process
+
+rovoevodin : TTY=pts/4 ; PWD=/home/rovoevodin ; USER=root ; COMMAND=/usr/bin/systemctl restart snmpd.service
+13be1a4d-c448-41aa-8d19-72dbc63fb09d
+zgrep "cD5CMDJZQLWn5-VGyLnO0w" smg*.log.gz |grep -i "spool thread"
+grep "cD5CMDJZQLWn5-VGyLnO0w" smg*.log |grep -i "spool thread"
+ls -la /opt/EMG/current
+lrwxrwxrwx 1 root root 19 Jul 11  2023 /opt/EMG/current -> /opt/EMG/13.2.0.1-7
+
+08216000463
+
+Yubikey https://intermedia.service-now.com/sp?id=kb_article_view&table=kb_knowledge&sys_kb_id=d5b3cb061b01c610c9fe415dee4bcbcc&searchTerm=defender
+
+https://intermedia.atlassian.net/wiki/spaces/LSA/pages/179930360/How+to+rebuild+LSA+Linux+VM+with+gosphere+tool
+
+example oSC case 7589974 with zermon, how to reply, 
+L2,
+holycitywealthmanagement.com has been added to CID-8293-EMG (ID 1623731)Thank you.
+
+Production pass and my aps
+https://webservices.intermedia.net/passwd/ 
+https://training.knowbe4.com/learner/index.html?44236500073799364743936387486235988627#/training/
+https://training.knowbe4.com/ui/login
+telnet rsync-london01-ztukk1.invaluement.com 873,
+
+mail154-co-2.exch154.serverpod.net - /root 95%
+apt purge netbackup-veritas
+
+NTP-Checks
+root@ust-redis-co2-2-1:/home/itsyplenkov# ntpq -c "rv 0 stratum,offset"
+stratum=16, offset=+0.000000
+
+LTM checking - If we have -1 counters with VM's then check with DC voice below LTM issues?
+https://co1-bigip-ltm-1.neteng.local/xui/
+
+VPN-Pin--135799
+Prod-Pin--135789
+
+VM status: Suspended_Customized
+Details: https://deployvm.intermedia.net/deploy/bc4326ec6d5cbc88382e64316c2a100b
+
+knife search node "name:jnl-dt-wa.serverpod.net" -a jumpnet.owner -a jumpnet.email
+
+https://intermedia.service-now.com/sp?id=kb_article_view&sys_kb_id=d5b3cb061b01c610c9fe415dee4bcbcc
+
+https://intermedia.service-now.com/sp?id=kb_article_view&sys_kb_id=2dd887d6db0db55034bdc8cb13961936
+/opt/quest/libexec/defender/check_pam_defender %ssomappa-c% sshd
+
+knife search node "name:jnlnx-tw-wa.infra.local" -a jumpnet.owner -a jumpnet.email
+
+apt update && apt-mark hold falcon-sensor linux-image-amd64 pamdefender qualys-cloud-agent splunkforwarder && apt upgrade -y && apt-mark unhold linux-image-amd64 pamdefender && apt autoremove -y && apt clean
+
+root@emg-ca-1-2:/home/rovoevodin# openssl pkcs12 -in star.securemail.intermedia.net.pfx.old  -nodes | openssl x509 -noout -dates
+SMTP valnarabilities
+https://www.postfix.org/smtp-smuggling.html
+
+mail022-co-2.exch022.domain.local ( DiskUsage - / (root) 89%)
+systemctl restart apache2 && systemctl restart dovecot && systemctl restart postfix
+
+apt hold falcon-sensor
+ 1959  apt | less
+ 1960  apt-mark hold falcon-sensor
+ 1961  dpkg -l | grep falcon
+ 1962  apt-mark unhold falcon-sensor
+apt update
+ 1964  apt list --upgradable
+
+
+$ postfix-mailq-analyzer --help
+Usage: /usr/local/bin/postfix-mailq-analyzer [--top <N>] [--show-ip] [--queue <queue>] [--help]
+  --top <N>       - Number of top results to display (default is 5, maximum is 100)
+  --show-ip       - Show top originating IP addresses (requires root)
+  --queue <queue> - Specify queue type (incoming, active, hold, deferred, default is deferred)
+  --help          - Display this help message
+
+mailq | grep -i  | grep -v ! | grep -v \( | awk -F"*" {'print $1'} | xargs -n1 postsuper -h
+mailq | grep -i delmer@rwagency.net | grep -v ! | grep -v \( | awk -F"*" {'print $1'} | xargs -n1 postsuper -h
+mailq | grep -i johnny.rocket@shinefm.com  | awk {'print $1'} | tr -d '*' | xargs -n1 sudo postsuper -h
+ mailq | grep -i  marvins.nova@eagleelementary.org | grep -v ! | grep -v \( | awk {'print $1'} | xargs -n1 postsuper -h
+mailq | grep -i  dmjankovich@golftec.com | grep -v ! | grep -v \( | awk {'print $1'} | xargs -n1 postsuper -h
+mailq | grep mjankovich@golftec.com | cut -f1 -d\  | sed 's/*//' | sed 's/!//' | postsuper -h -
+ mailq | tail -n +2 | awk 'BEGIN { RS = "" } /mjankovich@golftec\.com/ { print $1 }' | tr -d '*!' | postsuper -d -
+mailq | grep -i pete@crsrepair.com | grep -v ! | grep -v \( | awk -F"*" {'print $1'} | xargs -n1 postsuper -h
+
+mailq | grep -i mjankovich@golftec.com | awk {'print $1'} | tr -d '*' | xargs -n1 sudo postsuper -h-h
+ mailq | grep -i Reception@colonialparkrehab.com | grep -v ! | grep -v \( | awk -F"*" {'print $1'} | xargs -n1 postsuper -h
+
+mailq | grep -i jlinney@precisioneng.net  | grep -v ! | grep -v \( | awk {'print $1'} | xargs -n1 postsuper -h
+mailq | grep -i JamesM@Haloaaina.com  | grep -v ! | grep -v \( | awk -F"*" {'print $1'} | xargs -n1 postsuper -h
+mailq | grep -i russ.rino@bhhsdrysdale.com   | grep -v ! | grep -v \( | awk -F"*" {'print $1'} | xargs -n1 postsuper -h
+
+TITLE: Notice: Compromised mailbox on your account
+ - 6838333
+TITLE: Notice: Compromised mailbox on subaccount _______
+TITLE: Notice: Compromised mailbox on your account
+
+
+mailq | grep -i info@avanteleadership.com | grep -v ! | grep -v \( | awk -F"*" {'print $1'} | xargs -n1 postsuper -h
+mailq | grep -i  ginger.stoner@bhhsdrysdale.com    | grep -v ! | grep -v \( | awk {'print $1'} | xargs -n1 postsuper -h
+mailq | grep -i  Vijay@communityeng.com | grep -v ! | grep -v \( | awk {'print $1'} | xargs -n1 postsuper -h
+mailq | grep -i  sherry@counselmortgage.com | grep -v ! | grep -v \( | awk {'print $1'} | xargs -n1 postsuper -h
+mailq | grep -i usa.com  | grep -v ! | grep -v \( | awk -F"*" {'print $1'} | xargs -n1 postsuper -h
+
+mailq |grep -i itsupport@bellehaven.com  | awk '{print $1}' |cut -f1 -d'*'| postsuper -d -
+mailq |grep -i customercare@familyleisure.com | awk '{print $1}' |cut -f1 -d'*'| postsuper -d -
+mailq |grep -i ginger.stoner@bhhsdrysdale.com  | awk '{print $1}' |cut -f1 -d'*'| postsuper -d -
+mailq |grep -i pbatchelder@srv1st.com | awk '{print $1}' |cut -f1 -d'*'| postsuper -d -
+mailq |grep -i globalbrokers.net    | awk '{print $1}' |cut -f1 -d'*'| postsuper -d -
+mailq |grep -i  bounce-5059_HTML-241537381-2151175-7291843-8005@bounce.e.economist.com | awk '{print $1}' |cut -f1 -d'*'| postsuper -d -
+mailq |grep -i KWB@RGS.net | awk '{print $1}' |cut -f1 -d'*'| postsuper -d -
+
+To hold the mails
+ postmap -q 'From: "Anu Brookins" <anu@smartprousa.com>' regexp:/etc/postfix/header_checks
+
+
+May  1 22:12:01 ltasksc-co-1 CRON[2995128]: (root) CMD (/etc/periodic/hp_am_apicheck.sh
+
+mailq |grep -i mailer-daemon | awk '{print $1}' |cut -f1 -d'*'| postsuper -d -
+
+ mailq | grep -A 2 ' nelvia@cbwallawalla.com  ' | grep '^[0-9A-F]' | awk '{print $1}' | tr -d '*!' | xargs -n 1 postsuper -d
+
+
+mailq |grep -i nelvia@cbwallawalla.com   | awk '{print $1}' |cut -f1 -d'*'| postsuper -d -
+mailq |grep -i cs@otaywater.gov | awk '{print $1}' |cut -f1 -d'*'| postsuper -d -
+GShylu@#21
+
+Mail Id TO address reciepients remove use this commands
+mailq |grep -i info@usa.com | awk '{print $1}' |cut -f1 -d'!'| postsuper -d -
+mailq |grep -i  a1039@mkt11.hostpilot.com   | awk '{print $1}' |cut -f1 -d'!'| postsuper -d -
+
+
+To check spam or phissing...
+ for i in $(postqueue -j | jq -r '.queue_id'); do postcat -q $i | grep -F 'X-Spam-Category: PHISHING' && echo "::: $i "; done
+
+mailq |grep -i microsoft.com | awk '{print $1}' |cut -f1 -d'!'| postsuper -d -
+
+> knife search node "name:jnl-itsyp-va.serverpod.net" -a jumpnet.owner -a jumpnet.email
+  knife search node "name:jnl-itsyp-va.serverpod.net" -a jumpnet.owner -a jumpnet.email     
+
+
+#systemctl stop tomcat9;umount /opt/aes/quarantine
+  237  #mount -a; systemctl start tomcat9
+  238  systemctl stop tomcat9;umount /opt/aes/quarantine[A
+  239  df -h
+  240  mount -a; systemctl start tomcat9   
+
+
+zgrep "243211ca-b2eb-44da-93da-469a0c3a0659" smg*.log.gz |grep -i "spool thread"
+grep "DB2A5676-CC1B-4ACC-B3C5-9DBD2F8B8E66" smg*.log |grep -i "spool thread"
+grep "hreyes@nortonlilly.com" smg*.log |grep -i "spool thread"
+grep -ri "hreyes@nortonlilly.com"
+zgrep -i  jeffb@madisonadv.com maillog/emg-co-2-*/2023-03-21-*
+egrep "lydia@corporatefacilitiesgroup.com"  maillog/aesomt-co-1-2/2023-03-08-16-00|less
+
+grep "20230314200925.0001.CanonTxNo.0909" smg*.log |grep -i "spool thread"
+grep "799515881610670.6.UHX7656632464" smg*.log |grep -i "spool thread"
+Message-ID: <f7e1739da0b24556bca01a1b38ded4cf@DinExch.dinur.ru>
+fb6d90a9-c658-43f7-94e9-7270b69a5407
+a9300602-2d84-49b6-a9b4-e9a9ead964b4
+
+4cb2c08c-5d61-42bc-9ed9-3592f71d7429
+1672330054.151132.74521@ET0021B72AA61C
+
+ /etc/periodic/ldapproxy_domain_checker.py -g .1.3.6.1.3.63.8.0.1.027
+
+LSA: server aesomt-to-1-1 in farm aesomt-to-1 OUT OF SERVICE in context common (TO)
+snmpget -v2c -c telescope to-mffarm-aesomt-to-1.infra.local 1.3.6.1.4.1.3375.2.2.5.3.2.1.11.25.47.67.111.109.109.111.110.47.112.108.95.101.120.99.104.53.56.48.45.109.97.105.108.45.49.20.47.67.111.109.109.111.110.47.109.97.105.108.53.56.48.45.108.111.45.49.0
+
+snmpget -v2c -c teladmin aesc092-co-1-2.serverpod.net 1.3.6.1.4.1.8072.1.3.2.3.1.4.16.99.104.101.99.107.95.105.100.101.95.117.112.100.97.116.101
+snmp:||teladmin@sentry-app-dev.devintermedia.net|.1.3.6.1.4.1.8072.1.3.2.3.1.4.13.115.101.110.116.114.121.95.104.101.97.108.116.104
+
+snmpget -v2c -c teladmin ltasksc-va-1.serverpod.net|.1.3.6.1.3.63.8.1.1.131
+
+/etc/periodic/expire-domain-checker.py -g .1.3.6.1.3.63.8.1.1.131
+/etc/periodic/ldapproxy_domain_checker.py -g .1.3.6.1.3.53.8.1.2.180
+
+teladmin@ltasksc-va-1.serverpod.net|.1.3.6.1.3.63.8.1.1.131|bind to EXCH131 over ldapproxy-va-1-1
+
+snmpget -v2c -c telescope lo-mffarm-aesmt500-lo-1.infra.local 1.3.6.1.4.1.3375.2.2.5.3.2.1.11.21.47.109.102.102.97.114.109.47.97.101.115.109.116.53.48.48.45.108.111.45.49.23.47.109.102.102.97.114.109.47.97.101.115.109.116.53.48.48.45.108.111.45.49.45.50.0
+
+snmpget -v2c -c telescope ltasksc-vx-1-1.serverpod.net 1.3.6.1.4.1.8072.1.3.2.3.1.2.32.112.116.45.116.97.98.108.101.45.99.104.101.99.107.115.117.109.45.105.110.116.101.114.99.111.109.45.100.98.45.118.97
+
+
+
+snmpget -v2c -c teladmin  exmx480-to-1-1.serverpod.net 1.3.6.1.4.1.8072.1.3.2.3.1.4.7.115.116.117.110.110.101.108
+
+
+mail480-1.exch480.serverdata.net:> grep -A2 ADPostfixLDAPSvc /imedia/conf/adpostfix/adpostfix.conf
+jnlnx:> ldapsearch -H ldaps://exmf480-vx-1.serverpod.net:636 -b "DC=exch480,DC=domain,DC=local" "(mail=adpostfix-monitoring-1@eost480-w-ent.hostpilot.com)" -x -w //password// -D "ADPostfixLDAPSvc@exch480.domain.local"
+
+
+-rw-r--r-- 1 root root   1092 Jan 16 20:33 1673930025773_20bdfa5b-9619-4cf0-9017-f744e9802f4c_114.info
+-rw-r--r-- 1 root root 110830 Jan 16 20:33 1673930025773_20bdfa5b-9619-4cf0-9017-f744e9802f4c_114.eml
+1382401425.116099.1673930025077
+-rw-r--r-- 1 root root   1053 Jan 16 20:33 1673930027246_e6694ebf-27f1-435c-adbe-0452d6f1d79b_115.info
+-rw-r--r-- 1 root root 112675 Jan 16 20:33 1673930027246_e6694ebf-27f1-435c-adbe-0452d6f1d79b_115.eml
+SA1PR22MB280535D71A3D36A9E22B93ABBEC19
+SA1PR22MB280535D71A3D36A9E22B93ABBEC19
+-rw-r--r-- 1 root root   1053 Jan 16 20:33 1673930027660_a8d25d28-3b29-4141-8fae-5e0d13e9bea3_116.info
+-rw-r--r-- 1 root root 116650 Jan 16 20:33 1673930027660_a8d25d28-3b29-4141-8fae-5e0d13e9bea3_116.eml
+565638258.116090.1673930024977  ( SA1PR22MB280535D71A3D36A9E22B93ABBEC19@SA1PR22MB2805) parent message ID
+-rw-r--r-- 1 root root   1053 Jan 16 20:33 1673930028072_c5f54d2d-43c6-4598-b760-5a1b3858b39b_117.info
+-rw-r--r-- 1 root root 101924 Jan 16 20:33 1673930028072_c5f54d2d-43c6-4598-b760-5a1b3858b39b_117.eml
+512804884.116081.1673930024918
+1673932425655_20bdfa5b-9619-4cf0-9017-f744e9802f4c_122.eml
+510690393.116537.1673932424861
+1673934826710_c5f54d2d-43c6-4598-b760-5a1b3858b39b_129.eml
+997871173.116933.1673934824858
+
+839079570.116943.1673934824976
+
+SA1PR22MB280535D71A3D36A9E22B93ABBEC19
+
+The request is not to add the domain to CID-13727-EMG, but to whitelist the domain for TLS validation.
+https://intermedia.atlassian.net/wiki/spaces/SA/pages/16419037/Enforced+TLS+for+Accounts+with+Policy-Based+Encryption
+
+05-Sep-07- To 30-April-12 = 61 
+
+18-05-12 to 31-12-12.  8 months
+01-01-13 to 31-21-14   24 months magna
+01-01-15 To 30-Sep-16  21 months  cmc ltd
+01-10-2016 To 30-09-2017  12 months TCS
+01-10-2017 to 30-9-2018   12 months Foray Softwares
+17-10-18 to 30-Jan-2019  4 Months carritor software solution
+31-Jan-2019 6 July 2022  41 months Eliscription Pvt ltd
+15 Aug-222 to to date 4 monthsWhislink global soultion pvt. ( Infosys).
+
+8+24+21+12+12+4+41+4=126
+
+grep "6bab84e4-bb88-49f9-a761-933e7587cd15" smg*.log |grep -i "spool thread"
+zgrep "489134a4-1b36-4487-992b-72c3ba8a445c" smg*.log.gz |grep -i "spool thread"
+
+c7151ed2-ccb2-4686-892b-fc56d050727f
+6fe23f55-a281-47e6-8f34-0a039a59acfb
+0ed54473-f0b0-4b3d-a867-4d81449227f8
+ 6fe23f55-a281-47e6-8f34-0a039a59acfb
+
+Hi Team @lsa Please Take look. We have following counters in Healthometer 
+Adpostfix logs were not delivered from mail081-co-2.exch081.serverpod.net 0
+
+systemctl status postfix
+systemctl status dovecot
+systemctl status apache2
+
+systemctl reload postfix
+systemctl reload dovecot
+systemctl reload apache2
+
+systemctl restart postfix
+systemctl restart dovecot
+systemctl restart apache2
+
+
+/usr/bin/fgrep netflow-aggregator.pl /var/log/cron.log
+/usr/bin/systemctl status flow-capture
+/usr/bin/fgrep netflow-aggregator.pl /var/log/cron.log
+/usr/bin/find /var/flow -type f -exec ls -lt {} +
+
+/usr/bin/find /var/flow -type f -exec ls -lh {} ;
+/usr/bin/grep 1433 /imedia/bin/netflow-aggregator.pl
+/usr/bin/grep 1433 /imedia/var/netflow-aggregator.log
+
+
+/imedia/bin/netflow-aggregator.pl
+/usr/bin/grep netflow-aggregator.pl /var/log/cron.log
+/imedia/bin/netflow-aggregator.pl
+
+COMMAND=/usr/bin/vim /etc/postfix/header_checks
+COMMAND=/usr/bin/systemctl reload postfix
+COMMAND=/usr/bin/vim /etc/postfix/header_checks
+COMMAND=/usr/sbin/postmap -q To: <HamaspikOnlineSupport@hamaspikkings.org> regexp:/etc/postfix/header_checks
+ COMMAND=/usr/bin/vim /etc/postfix/header_checks
+COMMAND=/usr/sbin/postmap -q To: <HamaspikOnlineSupport@hamaspikkings.org> regexp:/etc/postfix/header_checks
+
+
+
+
+mfpdb-co-2-3.serverpod.net - Connection errors for IP in performance_schema.host_cache 50001
+Ans- mysqladmin flush-hosts
+
+clear
+        df -hT
+        lsblk
+        PVS , VGS , LVS
+        pvresize /dev/sdc
+        fdisk -l /dev/sdc
+        PVS
+        blockdev --rereadpt /dev/sdc
+        PVS
+        lvextend -l +100%FREE /dev/am-es-co-1-1.serverpod.net-vg1/lv1
+(#lvresize -rl 100%VG /dev/`hostname -f`-vg1/lv1
+lvresize -rl 100%VG /dev/`hostname -f`-vg0/lv0 )
+        
+
+
+135 [20.70.233.63]
+[20.70.233.63]
+
+Sentry_WEB - 	sentry-app-co-2.serverpod.net Monitoring Type, need to craete
+
+593894ed-e50a-411e-9cd0-6cf7e60d19dd
+
+
+ systemctl stop postfix
+  437  systemctl stop amavis
+  438  systemctl stop cmfilter
+  439  systemctl stop clamav-daemon
+  440  systemctl stop fsavd
+  441  systemctl stop clamav-freshclam.service
+  442  systemctl start fsavd
+  443  systemctl start clamav-daemon
+  444  systemctl start cmfilter
+  445  systemctl start amavis
+  446  systemctl start postfix
+  447  systemctl start clamav-freshclam.service
+
+
+
+# df -h /imedia/users
+Filesystem                                                 Size  Used Avail Use% Mounted on
+/dev/mapper/mail032--co--2.exch032.serverpod.net--vg1-lv1  590G  516G   45G  93% /imedia/users
+
+# du -shx /imedia/users/.imedia-*
+30G     /imedia/users/.imedia-deleted
+29G     /imedia/users/.imedia-migration
+30G     /imedia/users/.imedia-migration-BatchHybrid2
+9.4G    /imedia/users/.imedia-migration-BatchHybrid3
+11G     /imedia/users/.imedia-migration-BatchHybrid4
+Directories .imedia-migration* were created 2022-01-31, no files in these directories have been modified for at least 2 years. Can they be safety removed to resolve the case with low disk space?
+____
+
+
+DNS @lsa can you please check if we have any issues with dnscache in VA?
+root@pxpub-ccs011-va-2:/home/imaximov# dig @10.216.233.47 ldap-va.wh.intermedia.net
+
+; <<>> DiG 9.11.5-P4-5.1+deb10u7-Debian <<>> @10.216.233.47 ldap-va.wh.intermedia.net
+; (1 server found)
+;; global options: +cmd
+;; connection timed out; no servers could be reached
+(edited)
+:eyes:
+
+  
+@imaximov
+ for now must be okay.
+> dig @10.216.233.47 ldap-va.wh.intermedia.net +short
+10.216.233.31
+
+
+
+____________________________________
+exrmf-va-1-3.serverpod.net -  records in /var/tmp/fatalerrors found
+less /var/tmp/fatalerrors
+ /etc/periodic/remount.sh
+ truncate -s 0  /var/tmp/fatalerrors
+
+Stop mailflow on box by blocking the incoming smtp port:
+
+ iptables -I INPUT -p tcp --dport 25 -j REJECT; iptables -n --list |head
+ iptables -I INPUT -p tcp --dport 2501 -j REJECT; iptables -n --list |head
+ iptables -I INPUT -p tcp --dport 2502 -j REJECT; iptables -n --list |head
+
+Unblock the incoming smtp port:
+
+iptables -D INPUT -p tcp --dport 25 -j REJECT; iptables -n --list |head
+iptables -D INPUT -p tcp --dport 2501 -j REJECT; iptables -n --list |head
+iptables -D INPUT -p tcp --dport 2502 -j REJECT; iptables -n --list |head
+
+
+ pvdisplay
+  177  - echo "1" > /sys/class/block/sdc/device/rescan
+  178  echo "1" > /sys/class/block/sdc/device/rescan
+  179  pvdisplay
+  180  pvresize /dev/sdc
+  181  pvdisplay
+  182  lvdisplay
+  183  lvextend /dev/mst-am-co-1-1.serverpod.net-vg1/lv1 /dev/sdc
+  184  resize2fs /dev/mst-am-co-1-1.serverpod.net-vg1/lv1
+  185  df -h
+  186  find / -name partition_rotate.py
+  187  exit
+  188  systemctl --failed
+  189  netstat -tnulp
+
+ lsblk
+  230  cat /etc/os-release
+  231  exit
+  232  fdisk
+  233  fdisk -l
+  234  fdisk -l
+  235  pvresize /dev/sdc
+  236  blockdev --rereadpt /dev/sdc
+  237  pvs
+  238  pvresize /dev/sdc
+  239  pvs
+  240  lvextend /dev/mst-am-co-1-1.serverpod.net-vg1/lv1 /dev/sdb
+  241  resize2fs /dev/mst-am-co-1-1.serverpod.net-vg1/lv1
+
+/dev/mapper/mst--am--co--1--1.serverpod.net--vg1-lv1 
+
+ find / -name partition_rotate.py
+
+snmpd permision error
+"/usr/lib/python3.7/logging/__init__.py", line 1121, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+PermissionError: [Errno 13] Permission denied: '/tmp/procext.log'
+
+ust-es-co-1-1:~# systemctl show splunkforwarder | grep -e MemoryHigh -e MemoryMax
+MemoryHigh=157286400
+MemoryMax=209715200
+
+ust-es-co-1-1:~# cat /etc/systemd/system/splunkforwarder.service.d/override.conf
+[Service]
+MemoryHigh=150M
+MemoryMax=200M
+
+# chown Debian-snmp:Debian-snmp /tmp/procext.log
+# systemctl restart snmpd
+
+
+rovoevodin@devsentry-aes-va-1:~$ sudo openssl x509 -in /etc/ssl/certs/devsentry-aes-va-1.devserverpod.net.cer -noout -text
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            07:f2:f5:ce:56:74:19:e0:d4:0d:e8:96:5d:cf:0d:0d
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, O = DigiCert Inc, OU = www.digicert.com, CN = GeoTrust TLS RSA CA G1
+        Validity
+            Not Before: Jul 30 00:00:00 2024 GMT
+            Not After : Dec 16 23:59:59 2024 GMT
+
+passkey configured
+https://intermedia.service-now.com/now/nav/ui/classic/params/target/sp%3Fid%3Dkb_article_view%26sys_kb_id%3Dd95a960f1b51561005d3a648624bcb74
+
+https://intermedia.atlassian.net/wiki/spaces/LSA/pages/11364988/DNSCACHE+INFRA+Flush+cache+for+domain+via+TEAMCITY
+
+Secret name
+couchbase-CO
+
+
+
+Server or Location
+http://couchbase-co-1.serverpod.net:8091/ui/index.html
+Username
+Administrator
+Password
+privetserver
+
+NSR login
+Name - SHYLESH S Pass - Shylesh@#21
+
+German Zelenov
+  https://intermedia.atlassian.net/wiki/spaces/LSA/pages/11333878/DNSCACHE+environment+Debian+11 
+ Here is the full list of all DNSCACHE servers across all DCs: NTP servers
+dnscache-apn1-1-1.serverpod.net
+dnscache-apn1-1-2.serverpod.net
+dnscache-bc-2-1.serverpod.net
+dnscache-bc-2-2.serverpod.net
+dnscache-co-2-1.serverpod.net
+dnscache-co-2-2.serverpod.net
+dnscache-co2-2-1.serverpod.net
+dnscache-co2-2-2.serverpod.net
+dnscache-lo-2-1.serverpod.net
+dnscache-lo-2-2.serverpod.net
+dnscache-mtl-2-1.serverpod.net
+dnscache-mtl-2-2.serverpod.net
+dnscache-sy-2-1.serverpod.net
+dnscache-sy-2-2.serverpod.net
+dnscache-to-2-1.serverpod.net
+dnscache-to-2-2.serverpod.net
+dnscache-va-2-1.serverpod.net
+dnscache-va-2-2.serverpod.net
+dnscache-vx-2-1.serverpod.net
+dnscache-vx-2-2.serverpod.net
+dnscache-wa-3-1.serverpod.net
+dnscache-wa-3-2.serverpod.net
+
+Cleared the file descriptor:
+
+sentry-app-co-2:~$ sudo lsof +L1
+
+mst-telax-va-1-1.serverpod.net - DiskUsage - /opt/carbon-clickhouse 95%
+sudo dmesg -T | grep "Out of memory"
+/usr/bin/tail -f /var/log/clickhouse-server/clickhouse-server.log
+COMMAND=/usr/bin/dmesg -T
+
+To add RAM -- /usr/bin/tee /sys/devices/system/memory/memory136/state
+136 to 167 executed same cmds
+COMMAND=/usr/bin/tee /sys/devices/system/memory/memory167/state
+
+# systemctl status clickhouse-server
+# curl -s --connect-timeout 1 -f 'http://localhost:8123/?query=SELECT%20123'
+Ans - 123
+
+mysql-restore-vx-2.serverpod.net - EMG-DB-CA-2 replication consistency 64
+mysql-restore-vx-1.serverpod.net - EMG-DB-CA-2 replication consistency 64
+
+To check..?--/etc/periodic/pt-table-checksum-emg.sh -s emg-db-ca-2-1.serverpod.net; echo $?
+sudo find /tmp -type f -name "pt-table-checksum-emg-db*" -mtime +1 | wc -l
+COMMAND=/etc/periodic/pt-table-checksum-emg.sh -c emg-db-ca-2.serverpod.net
+/etc/periodic/pt-table-checksum-emg.sh -c emg-db-ca-2-1.serverpod.net
+ nohup /etc/periodic/pt-table-checksum-emg.sh -c emg-db-co-2-1.serverpod.net &
+COMMAND=/usr/bin/tail -f /tmp/pt-table-checksum-emg-db-ca-2-1
+/etc/periodic/pt-table-checksum-emg.sh -c emg-db-ca-2-1.serverpod.net
+
+cat /etc/periodic/pt-table-checksum-emg.sh
+cat /etc/cron.d/pt-table-checksum-emg
+/mv /tmp/pt-table-checksum-emg-db-ca-2 /home/akravchuk
+find /tmp -type f -name pt-table-checksum-emg-db* -mtime +1
+mv /tmp/pt-table-checksum-emg-db-ca-2-1 /home/akravchuk
+/etc/cron.d/pt-table-checksum-emg
+/cat /home/ssomappa-c/.bash_history
+sudo bash
+cat /tmp/pt-table-checksum-emg-db-ca-2-1
+nano /etc/periodic/pt-table-checksum-emg.sh
+sudo nano /etc/periodic/pt-table-checksum-emg.sh
+sudo /etc/periodic/pt-table-checksum-emg.sh
+sudo tail -f /tmp/pt-table-checksum.tmp
+hisotry
+history
+sudo cat /etc/cron.daily/
+sudo cat /etc/cron.d/pt-table-checksum-emg
+
+
+
+	#aeses-co-1-1.serverpod.net - Curator exited not 0. Check logs in /var/log/curator
+            #echo "0" > /var/tmp/curator_exit_code
+
+
+ COMMAND=/usr/bin/find /var/flow -type f -exec ls -lth {} +
+COMMAND=/usr/bin/fgrep netflow-aggregator.pl /var/log/cron.log /var/log/cron.log.1 /var/log/cron.log.2.gz /var/log/cron.log.3.gz /var/log/cron.log.4.gz
+/usr/bin/tail -f /imedia/var/netflow-aggregator.log
+/usr/bin/tail -f /imedia/var/netflow-aggregator.log
+
+INCISMZ1
+GATE PASS SERIAL NO - MYSST24RQ1485
+ASSET ID - ITL-HW-LAPTP-000000561774
+SL-5CD207DQH5
+LOC-MYSORE2STP
+
+aesc070-co-1-1.serverpod.net - Sophos: IDE version is outdated -1
+Apr  9 04:32:26 aesc070-co-1-1 sudo: rovoevodin : TTY=pts/4 ; PWD=/home/rovoevodin ; USER=root ; COMMAND=/usr/bin/systemctl restart snmpd.service
+
+Apr  9 04:36:07 aesc070-co-1-1 sudo: rovoevodin : TTY=pts/4 ; PWD=/home/rovoevodin ; USER=root ; COMMAND=/usr/bin/systemctl restart snmpd.service
+
+Apr  9 04:37:19 aesc070-co-1-1 sudo: rovoevodin : TTY=pts/4 ; PWD=/home/rovoevodin ; USER=root ; COMMAND=/usr/bin/systemctl restart snmpd.service
+
+Apr  9 04:38:14 aesc070-co-1-1 sudo: rovoevodin : TTY=pts/4 ; PWD=/home/rovoevodin ; USER=root ; COMMAND=/etc/periodic/sophos-update.sh -o /opt/sophos/sav-download/files ide
+
+Apr  9 04:39:14 aesc070-co-1-1 sudo: rovoevodin : TTY=pts/4 ; PWD=/home/rovoevodin ; USER=Debian-snmp ; COMMAND=/bin/bash -c source /etc/default/sophos-update; /usr/bin/aes-monitoring-utils -V check_vdl_update --path_to_zips /var/www/sophos --outdate_hours 24
+
+Apr  9 04:40:18 aesc070-co-1-1 sudo: rovoevodin : TTY=pts/4 ; PWD=/home/rovoevodin ; USER=root ; COMMAND=/usr/bin/systemctl restart snmpd.service
+
+Apr  9 04:46:10 aesc070-co-1-1 sudo: rovoevodin : TTY=pts/4 ; PWD=/home/rovoevodin ; USER=root ; COMMAND=/usr/bin/systemctl restart sophos
+
+Apr  9 04:47:11 aesc070-co-1-1 sudo: rovoevodin : TTY=pts/4 ; PWD=/home/rovoevodin ; USER=root ; COMMAND=/etc/periodic/sophos-update.sh -o /opt/sophos/sav-download/files ide
+
+Apr  9 04:47:17 aesc070-co-1-1 sudo: rovoevodin : TTY=pts/4 ; PWD=/home/rovoevodin ; USER=root ; COMMAND=/usr/bin/journalctl -t sophos_updater
+
+rovoevodin@aesc070-co-1-1:~$ snmpget -v2c -c teladmin localhost 1.3.6.1.4.1.8072.1.3.2.3.1.4.16.99.104.101.99.107.95.105.100.101.95.117.112.100.97.116.101
+
+rovoevodin@aesc070-co-1-1:~$ echo $?
+
+mfsdb-lo-2-2.serverpod.net - Replication lag 407
+mysql --defaults-file=/etc/mysql/percona-server.cnf -p -e "SHOW SLAVE STATUS \G
+to fix
+I have restarted slave, using, mysql -p -e "STOP SLAVE; START SLAVE;"
+
+160  cp /etc/elasticsearch/certs/node-cert.pem ./
+  161  cp  /etc/elasticsearch/certs/node-key.pem ./
+  162  cp /etc/elasticsearch/certs/preprod-cc-esm-va-1.preprodserverdata.net-cert.pem ./
+  163   cp /etc/elasticsearch/certs/preprod-cc-esm-va-1.preprodserverdata.net-key.pem ./
+
+apt-get install --reinstall zabbix-agent=1:4.0.40-1+buster
+
+root@sslchecker-co-1:/home/rovoevodin# expire-checker.sh -s owa.intermedia.co.uk -p 443
+owa.intermedia.co.uk:443		GeoTrust TLS RSA CA G1	Valid	Dec 5 2025	372	owa.intermedia.co.uk
+
+
+systemctl is-system-running
+systemctl --failed
+systemctl reset-failed
+systemctl restart systemd-journald
+systemctl is-system-running
+
+systemctl status carbonapi
+systemctl restart carbonapi
+journalctl -u carbonapi
+
+Windows 10 to window 11 upgrade gggg
+https://intermedia.service-now.com/sp?id=kb_article_view&sys_kb_id=9c7fe05347a12e9036f776fa516d434e&table=kb_knowledge&searchTerm=windows%20upgrade
+
+systemctl is-system-running
+systemctl --failed
+systemctl reset-failed
+systemctl restart systemd-journald
+
+Disk --- /var exneded commands...
+grafana-hpbx-co-3.serverpod.net      CO       MA-CO-12         LSA: DiskUsage - /var         79
+#apt-get clean
+#journalctl --vacuum-time=1d
+...did not free up enough space.
+#df -h
+[snipped]
+/dev/mapper/system--vg-var--lv    49G   39G  8.0G  83% /var
+Added 7 GB disk in vcenter.
+[system automatically recognized /dev/sdb]
+#pvcreate /dev/sdb
+#vgextend system-vg /dev/sdb
+#lvresize -rl 100%VG /dev/system-vg/var-lv
+#df -h /var
+Filesystem                      Size  Used Avail Use% Mounted on
+/dev/mapper/system--vg-var--lv   56G   39G   15G  73% /var
+
+
+mst-lsa-va-1-2.serverpod.net - DiskUsage - /opt/carbon-clickhouse 90%
+COMMAND=/usr/bin/tail -f /var/log/clickhouse-server/clickhouse-server.log
+ COMMAND=/usr/bin/systemctl status clickhouse-server
+COMMAND=/usr/bin/systemctl restart clickhouse-server
+COMMAND=/usr/bin/systemctl status clickhouse-server
+ COMMAND=/usr/bin/tail -f /var/log/clickhouse-server/clickhouse-server.log
+COMMAND=/usr/bin/tail -f /var/log/clickhouse-server/clickhouse-server.log
+ COMMAND=/usr/bin/grep -r Memory limit /var/log/clickhouse-server/clickhouse-server.log
+
+https://grafana.serverdata.net/lsa/login
+
+
+
+COMMAND=/usr/bin/systemctl status clickhouse-server
+
+USER=root ; COMMAND=/usr/sbin/postsuper -d -
+Aug 21 05:30:43 tlsrelay-co-1-1 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by akravchuk(uid=29399)
+Aug 21 05:30:43 tlsrelay-co-1-1 sudo: akravchuk : TTY=pts/2 ; PWD=/home/akravchuk ; USER=root ; COMMAND=/usr/sbin/postqueue -j
+
+
+ldapsearch -ZZ -h west.ldap.exch480.serverpod.net -D mailfilterldapsvc@exch480.serverpod.net -W -b dc=exch480,dc=serverpod,dc=net dn | more
+
+ldapsearch -ZZ -h east.ldap.exch131.serverpod.net -D mailfilterldapsvc@exch131.serverpod.net -W -b dc=exch131,dc=serverpod,dc=net dn | more
+
+
+
+grayes-aes-va-2-4.graysvc.serverpod.net - Number of splunkd processes 03
+ jnl-gzel-wa.serverpod.net WAMA-WA-2KBLSA: Splunk process counts 0, #/opt/splunkforwarder/bin/splunk start --accept-license
+sudo systemctl stop splunkforwarder; sudo /opt/splunkforwarder/bin/splunk disable boot-start; sudo systemctl reset-failed; sudo systemctl daemon-reload; sudo systemctl restart  splunkforwarder
+sudo systemctl stop postfix-tcptable-daemon.service; sudo /lib/systemd/system/postfix.service disable boot-start; sudo systemctl reset-failed; sudo systemctl daemon-reload; sudo systemctl restart  postfix-tcptable-daemon
